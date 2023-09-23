@@ -1,0 +1,107 @@
+<XMI xmi.version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:UML="http://schema.omg.org/spec/UML/2.1">
+<UML:Package XMI:id="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed" name="Iphone" visibility="public">
+<ownedMember>
+<UML:Interface XMI:id="3d0382d4-5a2d-11ee-a98a-193a0cdcf93f">
+<ownedOperation>
+<XMI:Operation XMI:id="e89b130d-5a2d-11ee-8afd-193a0cdcf93f" isStatic="False" isQuery="False" name="tocar"/>
+</ownedOperation>
+<ownedOperation>
+<XMI:Operation XMI:id="08600d30-5a2e-11ee-b1c3-193a0cdcf93f" isStatic="False" isQuery="False" name="pausar"/>
+</ownedOperation>
+<ownedOperation>
+<XMI:Operation XMI:id="164cc37a-5a2e-11ee-8829-193a0cdcf93f" isStatic="False" isQuery="False" name="selecionarMusica"/>
+</ownedOperation>
+</UML:Interface>
+</ownedMember>
+<ownedMember>
+<UML:Class XMI:id="3d59b5fe-5a2f-11ee-a874-193a0cdcf93f" name="Iphone" isAbstract="False">
+<ownedAttribute>
+<UML:Property XMI:id="6b3062d4-5a2f-11ee-9e7b-193a0cdcf93f" isStatic="False" isOrdered="True" isUnique="True" isDerived="False" isDerivedUnion="False" isReadOnly="False" name="modelo"/>
+</ownedAttribute>
+<ownedAttribute>
+<UML:Property XMI:id="7281c869-5a2f-11ee-8784-193a0cdcf93f" isStatic="False" isOrdered="True" isUnique="True" isDerived="False" isDerivedUnion="False" isReadOnly="False" name="numeroDeTelefone"/>
+</ownedAttribute>
+</UML:Class>
+</ownedMember>
+<ownedMember>
+<UML:Interface XMI:id="596cd23f-5a2e-11ee-adf9-193a0cdcf93f">
+<ownedOperation>
+<XMI:Operation XMI:id="804fa70a-5a2e-11ee-9347-193a0cdcf93f" isStatic="False" isQuery="False" name="ligar"/>
+</ownedOperation>
+<ownedOperation>
+<XMI:Operation XMI:id="d0ec2e84-5a2e-11ee-acc3-193a0cdcf93f" isStatic="False" isQuery="False" name="atender"/>
+</ownedOperation>
+<ownedOperation>
+<XMI:Operation XMI:id="e36f6d9d-5a2e-11ee-9ea8-193a0cdcf93f" isStatic="False" isQuery="False" name="iniciarCorreioVoz"/>
+</ownedOperation>
+</UML:Interface>
+</ownedMember>
+<ownedMember>
+<UML:Interface XMI:id="f3de9d19-5a2e-11ee-9f04-193a0cdcf93f">
+<ownedOperation>
+<XMI:Operation XMI:id="0b01aea1-5a2f-11ee-bd73-193a0cdcf93f" isStatic="False" isQuery="False" name="adicionarNovaAba"/>
+</ownedOperation>
+<ownedOperation>
+<XMI:Operation XMI:id="14fb2818-5a2f-11ee-b429-193a0cdcf93f" isStatic="False" isQuery="False" name="exibirPagina"/>
+</ownedOperation>
+<ownedOperation>
+<XMI:Operation XMI:id="1b3b0d02-5a2f-11ee-b9a8-193a0cdcf93f" isStatic="False" isQuery="False" name=" atualizarPagina"/>
+</ownedOperation>
+</UML:Interface>
+</ownedMember>
+</UML:Package>
+<UML:Generalization XMI:id="f12a5d26-5a2f-11ee-b296-193a0cdcf93f" isSubstitutable="None">
+<general>
+<UML:Interface XMI:id="3d0382d4-5a2d-11ee-a98a-193a0cdcf93f">
+<ownedOperation>
+<XMI:Operation XMI:id="e89b130d-5a2d-11ee-8afd-193a0cdcf93f" isStatic="False" isQuery="False" name="tocar"/>
+</ownedOperation>
+<ownedOperation>
+<XMI:Operation XMI:id="08600d30-5a2e-11ee-b1c3-193a0cdcf93f" isStatic="False" isQuery="False" name="pausar"/>
+</ownedOperation>
+<ownedOperation>
+<XMI:Operation XMI:id="164cc37a-5a2e-11ee-8829-193a0cdcf93f" isStatic="False" isQuery="False" name="selecionarMusica"/>
+</ownedOperation>
+</UML:Interface>
+</general>
+<specific>
+<UML:Class XMI:idref="3d59b5fe-5a2f-11ee-a874-193a0cdcf93f"/>
+</specific>
+</UML:Generalization>
+<UML:Generalization XMI:id="f56650a7-5a2f-11ee-92fb-193a0cdcf93f" isSubstitutable="None">
+<general>
+<UML:Interface XMI:id="596cd23f-5a2e-11ee-adf9-193a0cdcf93f">
+<ownedOperation>
+<XMI:Operation XMI:id="804fa70a-5a2e-11ee-9347-193a0cdcf93f" isStatic="False" isQuery="False" name="ligar"/>
+</ownedOperation>
+<ownedOperation>
+<XMI:Operation XMI:id="d0ec2e84-5a2e-11ee-acc3-193a0cdcf93f" isStatic="False" isQuery="False" name="atender"/>
+</ownedOperation>
+<ownedOperation>
+<XMI:Operation XMI:id="e36f6d9d-5a2e-11ee-9ea8-193a0cdcf93f" isStatic="False" isQuery="False" name="iniciarCorreioVoz"/>
+</ownedOperation>
+</UML:Interface>
+</general>
+<specific>
+<UML:Class XMI:idref="3d59b5fe-5a2f-11ee-a874-193a0cdcf93f"/>
+</specific>
+</UML:Generalization>
+<UML:Generalization XMI:id="faa7ad0f-5a2f-11ee-bd68-193a0cdcf93f" isSubstitutable="None">
+<general>
+<UML:Interface XMI:id="f3de9d19-5a2e-11ee-9f04-193a0cdcf93f">
+<ownedOperation>
+<XMI:Operation XMI:id="0b01aea1-5a2f-11ee-bd73-193a0cdcf93f" isStatic="False" isQuery="False" name="adicionarNovaAba"/>
+</ownedOperation>
+<ownedOperation>
+<XMI:Operation XMI:id="14fb2818-5a2f-11ee-b429-193a0cdcf93f" isStatic="False" isQuery="False" name="exibirPagina"/>
+</ownedOperation>
+<ownedOperation>
+<XMI:Operation XMI:id="1b3b0d02-5a2f-11ee-b9a8-193a0cdcf93f" isStatic="False" isQuery="False" name=" atualizarPagina"/>
+</ownedOperation>
+</UML:Interface>
+</general>
+<specific>
+<UML:Class XMI:idref="3d59b5fe-5a2f-11ee-a874-193a0cdcf93f"/>
+</specific>
+</UML:Generalization>
+</XMI>

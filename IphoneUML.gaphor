@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gaphor xmlns="http://gaphor.sourceforge.net/model" version="3.0" gaphor-version="2.21.0">
+<StyleSheet id="58d6989a-66f8-11ec-b4c8-0456e5e540ed">
+<styleSheet>
+<val>diagram {
+ /* line-style: sloppy 0.3; */
+}
+
+controlflow {
+  dash-style: 0;
+}
+</val>
+</styleSheet>
+</StyleSheet>
+<Package id="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed">
+<name>
+<val>Iphone</val>
+</name>
+<ownedDiagram>
+<reflist>
+<ref refid="2a6d95f6-5a2d-11ee-8c62-193a0cdcf93f"/>
+</reflist>
+</ownedDiagram>
+<ownedType>
+<reflist>
+<ref refid="3d0382d4-5a2d-11ee-a98a-193a0cdcf93f"/>
+<ref refid="596cd23f-5a2e-11ee-adf9-193a0cdcf93f"/>
+<ref refid="f3de9d19-5a2e-11ee-9f04-193a0cdcf93f"/>
+<ref refid="3d59b5fe-5a2f-11ee-a874-193a0cdcf93f"/>
+</reflist>
+</ownedType>
+</Package>
+<Diagram id="2a6d95f6-5a2d-11ee-8c62-193a0cdcf93f">
+<diagramType>
+<val>cls</val>
+</diagramType>
+<element>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</element>
+<name>
+<val>Iphone</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="3d042c50-5a2d-11ee-b0e2-193a0cdcf93f"/>
+<ref refid="596d2503-5a2e-11ee-9e28-193a0cdcf93f"/>
+<ref refid="f3df3519-5a2e-11ee-b103-193a0cdcf93f"/>
+<ref refid="3d5a581f-5a2f-11ee-8793-193a0cdcf93f"/>
+<ref refid="efbe5e58-5a2f-11ee-9f05-193a0cdcf93f"/>
+<ref refid="f492ebbc-5a2f-11ee-a71f-193a0cdcf93f"/>
+<ref refid="f984c898-5a2f-11ee-ac50-193a0cdcf93f"/>
+</reflist>
+</ownedPresentation>
+</Diagram>
+<Interface id="3d0382d4-5a2d-11ee-a98a-193a0cdcf93f">
+<isAbstract>
+<val>1</val>
+</isAbstract>
+<name>
+<val>Reprodutor Musical</val>
+</name>
+<ownedOperation>
+<reflist>
+<ref refid="e89b130d-5a2d-11ee-8afd-193a0cdcf93f"/>
+<ref refid="08600d30-5a2e-11ee-b1c3-193a0cdcf93f"/>
+<ref refid="164cc37a-5a2e-11ee-8829-193a0cdcf93f"/>
+</reflist>
+</ownedOperation>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="3d042c50-5a2d-11ee-b0e2-193a0cdcf93f"/>
+</reflist>
+</presentation>
+<specialization>
+<reflist>
+<ref refid="f12a5d26-5a2f-11ee-b296-193a0cdcf93f"/>
+</reflist>
+</specialization>
+</Interface>
+<InterfaceItem id="3d042c50-5a2d-11ee-b0e2-193a0cdcf93f">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 82.7618408203125, 120.1385726928711)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>183.652099609375</val>
+</width>
+<height>
+<val>125.0</val>
+</height>
+<diagram>
+<ref refid="2a6d95f6-5a2d-11ee-8c62-193a0cdcf93f"/>
+</diagram>
+<subject>
+<ref refid="3d0382d4-5a2d-11ee-a98a-193a0cdcf93f"/>
+</subject>
+<folded>
+<val>0</val>
+</folded>
+</InterfaceItem>
+<Operation id="e89b130d-5a2d-11ee-8afd-193a0cdcf93f">
+<interface_>
+<ref refid="3d0382d4-5a2d-11ee-a98a-193a0cdcf93f"/>
+</interface_>
+<isAbstract>
+<val>0</val>
+</isAbstract>
+<name>
+<val>tocar</val>
+</name>
+</Operation>
+<Operation id="08600d30-5a2e-11ee-b1c3-193a0cdcf93f">
+<interface_>
+<ref refid="3d0382d4-5a2d-11ee-a98a-193a0cdcf93f"/>
+</interface_>
+<name>
+<val>pausar</val>
+</name>
+</Operation>
+<Operation id="164cc37a-5a2e-11ee-8829-193a0cdcf93f">
+<interface_>
+<ref refid="3d0382d4-5a2d-11ee-a98a-193a0cdcf93f"/>
+</interface_>
+<name>
+<val>selecionarMusica</val>
+</name>
+</Operation>
+<Interface id="596cd23f-5a2e-11ee-adf9-193a0cdcf93f">
+<name>
+<val>AparelhoTelefônico</val>
+</name>
+<ownedOperation>
+<reflist>
+<ref refid="804fa70a-5a2e-11ee-9347-193a0cdcf93f"/>
+<ref refid="d0ec2e84-5a2e-11ee-acc3-193a0cdcf93f"/>
+<ref refid="e36f6d9d-5a2e-11ee-9ea8-193a0cdcf93f"/>
+</reflist>
+</ownedOperation>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="596d2503-5a2e-11ee-9e28-193a0cdcf93f"/>
+</reflist>
+</presentation>
+<specialization>
+<reflist>
+<ref refid="f56650a7-5a2f-11ee-92fb-193a0cdcf93f"/>
+</reflist>
+</specialization>
+</Interface>
+<InterfaceItem id="596d2503-5a2e-11ee-9e28-193a0cdcf93f">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 299.9322509765625, 119.68207550048828)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>173.9954833984375</val>
+</width>
+<height>
+<val>125.0</val>
+</height>
+<diagram>
+<ref refid="2a6d95f6-5a2d-11ee-8c62-193a0cdcf93f"/>
+</diagram>
+<subject>
+<ref refid="596cd23f-5a2e-11ee-adf9-193a0cdcf93f"/>
+</subject>
+<folded>
+<val>0</val>
+</folded>
+</InterfaceItem>
+<Operation id="804fa70a-5a2e-11ee-9347-193a0cdcf93f">
+<interface_>
+<ref refid="596cd23f-5a2e-11ee-adf9-193a0cdcf93f"/>
+</interface_>
+<name>
+<val>ligar</val>
+</name>
+</Operation>
+<Operation id="d0ec2e84-5a2e-11ee-acc3-193a0cdcf93f">
+<interface_>
+<ref refid="596cd23f-5a2e-11ee-adf9-193a0cdcf93f"/>
+</interface_>
+<name>
+<val>atender</val>
+</name>
+</Operation>
+<Operation id="e36f6d9d-5a2e-11ee-9ea8-193a0cdcf93f">
+<interface_>
+<ref refid="596cd23f-5a2e-11ee-adf9-193a0cdcf93f"/>
+</interface_>
+<name>
+<val>iniciarCorreioVoz</val>
+</name>
+</Operation>
+<Interface id="f3de9d19-5a2e-11ee-9f04-193a0cdcf93f">
+<name>
+<val>NavegadorNaInternet</val>
+</name>
+<ownedOperation>
+<reflist>
+<ref refid="0b01aea1-5a2f-11ee-bd73-193a0cdcf93f"/>
+<ref refid="14fb2818-5a2f-11ee-b429-193a0cdcf93f"/>
+<ref refid="1b3b0d02-5a2f-11ee-b9a8-193a0cdcf93f"/>
+</reflist>
+</ownedOperation>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="f3df3519-5a2e-11ee-b103-193a0cdcf93f"/>
+</reflist>
+</presentation>
+<specialization>
+<reflist>
+<ref refid="faa7ad0f-5a2f-11ee-bd68-193a0cdcf93f"/>
+</reflist>
+</specialization>
+</Interface>
+<InterfaceItem id="f3df3519-5a2e-11ee-b103-193a0cdcf93f">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 555.6460571289062, 120.1385726928711)</val>
+</matrix>
+<top-left>
+<val>(-21.266845703125, 0.0)</val>
+</top-left>
+<width>
+<val>191.6207275390625</val>
+</width>
+<height>
+<val>125.0</val>
+</height>
+<diagram>
+<ref refid="2a6d95f6-5a2d-11ee-8c62-193a0cdcf93f"/>
+</diagram>
+<subject>
+<ref refid="f3de9d19-5a2e-11ee-9f04-193a0cdcf93f"/>
+</subject>
+<folded>
+<val>0</val>
+</folded>
+</InterfaceItem>
+<Operation id="0b01aea1-5a2f-11ee-bd73-193a0cdcf93f">
+<interface_>
+<ref refid="f3de9d19-5a2e-11ee-9f04-193a0cdcf93f"/>
+</interface_>
+<name>
+<val>adicionarNovaAba</val>
+</name>
+</Operation>
+<Operation id="14fb2818-5a2f-11ee-b429-193a0cdcf93f">
+<interface_>
+<ref refid="f3de9d19-5a2e-11ee-9f04-193a0cdcf93f"/>
+</interface_>
+<name>
+<val>exibirPagina</val>
+</name>
+</Operation>
+<Operation id="1b3b0d02-5a2f-11ee-b9a8-193a0cdcf93f">
+<interface_>
+<ref refid="f3de9d19-5a2e-11ee-9f04-193a0cdcf93f"/>
+</interface_>
+<name>
+<val> atualizarPagina</val>
+</name>
+</Operation>
+<Class id="3d59b5fe-5a2f-11ee-a874-193a0cdcf93f">
+<generalization>
+<reflist>
+<ref refid="f12a5d26-5a2f-11ee-b296-193a0cdcf93f"/>
+<ref refid="f56650a7-5a2f-11ee-92fb-193a0cdcf93f"/>
+<ref refid="faa7ad0f-5a2f-11ee-bd68-193a0cdcf93f"/>
+</reflist>
+</generalization>
+<name>
+<val>Iphone</val>
+</name>
+<ownedAttribute>
+<reflist>
+<ref refid="6b3062d4-5a2f-11ee-9e7b-193a0cdcf93f"/>
+<ref refid="7281c869-5a2f-11ee-8784-193a0cdcf93f"/>
+</reflist>
+</ownedAttribute>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="3d5a581f-5a2f-11ee-8793-193a0cdcf93f"/>
+</reflist>
+</presentation>
+</Class>
+<ClassItem id="3d5a581f-5a2f-11ee-8793-193a0cdcf93f">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 248.77151489257812, 460.2184143066406)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>294.02532958984375</val>
+</width>
+<height>
+<val>140.47772216796875</val>
+</height>
+<diagram>
+<ref refid="2a6d95f6-5a2d-11ee-8c62-193a0cdcf93f"/>
+</diagram>
+<subject>
+<ref refid="3d59b5fe-5a2f-11ee-a874-193a0cdcf93f"/>
+</subject>
+</ClassItem>
+<Property id="6b3062d4-5a2f-11ee-9e7b-193a0cdcf93f">
+<class_>
+<ref refid="3d59b5fe-5a2f-11ee-a874-193a0cdcf93f"/>
+</class_>
+<name>
+<val>modelo</val>
+</name>
+<visibility>
+<val>private</val>
+</visibility>
+</Property>
+<Property id="7281c869-5a2f-11ee-8784-193a0cdcf93f">
+<class_>
+<ref refid="3d59b5fe-5a2f-11ee-a874-193a0cdcf93f"/>
+</class_>
+<name>
+<val>numeroDeTelefone</val>
+</name>
+<visibility>
+<val>private</val>
+</visibility>
+</Property>
+<GeneralizationItem id="efbe5e58-5a2f-11ee-9f05-193a0cdcf93f">
+<diagram>
+<ref refid="2a6d95f6-5a2d-11ee-8c62-193a0cdcf93f"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="f12a5d26-5a2f-11ee-b296-193a0cdcf93f"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 221.36582946777344, 242.3163299560547)</val>
+</matrix>
+<points>
+<val>[(174.41835021972656, 217.90208435058594), (0.0, 2.8222427368164062)]</val>
+</points>
+<head-connection>
+<ref refid="3d5a581f-5a2f-11ee-8793-193a0cdcf93f"/>
+</head-connection>
+<tail-connection>
+<ref refid="3d042c50-5a2d-11ee-b0e2-193a0cdcf93f"/>
+</tail-connection>
+</GeneralizationItem>
+<Generalization id="f12a5d26-5a2f-11ee-b296-193a0cdcf93f">
+<general>
+<ref refid="3d0382d4-5a2d-11ee-a98a-193a0cdcf93f"/>
+</general>
+<presentation>
+<reflist>
+<ref refid="efbe5e58-5a2f-11ee-9f05-193a0cdcf93f"/>
+</reflist>
+</presentation>
+<specific>
+<ref refid="3d59b5fe-5a2f-11ee-a874-193a0cdcf93f"/>
+</specific>
+</Generalization>
+<GeneralizationItem id="f492ebbc-5a2f-11ee-a71f-193a0cdcf93f">
+<diagram>
+<ref refid="2a6d95f6-5a2d-11ee-8c62-193a0cdcf93f"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="f56650a7-5a2f-11ee-92fb-193a0cdcf93f"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 395.7841796875, 245.27882385253906)</val>
+</matrix>
+<points>
+<val>[(0.0, 214.93959045410156), (0.0, -0.5967483520507812)]</val>
+</points>
+<head-connection>
+<ref refid="3d5a581f-5a2f-11ee-8793-193a0cdcf93f"/>
+</head-connection>
+<tail-connection>
+<ref refid="596d2503-5a2e-11ee-9e28-193a0cdcf93f"/>
+</tail-connection>
+</GeneralizationItem>
+<Generalization id="f56650a7-5a2f-11ee-92fb-193a0cdcf93f">
+<general>
+<ref refid="596cd23f-5a2e-11ee-adf9-193a0cdcf93f"/>
+</general>
+<presentation>
+<reflist>
+<ref refid="f492ebbc-5a2f-11ee-a71f-193a0cdcf93f"/>
+</reflist>
+</presentation>
+<specific>
+<ref refid="3d59b5fe-5a2f-11ee-a874-193a0cdcf93f"/>
+</specific>
+</Generalization>
+<GeneralizationItem id="f984c898-5a2f-11ee-ac50-193a0cdcf93f">
+<diagram>
+<ref refid="2a6d95f6-5a2d-11ee-8c62-193a0cdcf93f"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="faa7ad0f-5a2f-11ee-bd68-193a0cdcf93f"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 629.9102172851562, 243.53721618652344)</val>
+</matrix>
+<points>
+<val>[(-234.12603759765625, 216.6811981201172), (0.0, 1.6013565063476562)]</val>
+</points>
+<head-connection>
+<ref refid="3d5a581f-5a2f-11ee-8793-193a0cdcf93f"/>
+</head-connection>
+<tail-connection>
+<ref refid="f3df3519-5a2e-11ee-b103-193a0cdcf93f"/>
+</tail-connection>
+</GeneralizationItem>
+<Generalization id="faa7ad0f-5a2f-11ee-bd68-193a0cdcf93f">
+<general>
+<ref refid="f3de9d19-5a2e-11ee-9f04-193a0cdcf93f"/>
+</general>
+<presentation>
+<reflist>
+<ref refid="f984c898-5a2f-11ee-ac50-193a0cdcf93f"/>
+</reflist>
+</presentation>
+<specific>
+<ref refid="3d59b5fe-5a2f-11ee-a874-193a0cdcf93f"/>
+</specific>
+</Generalization>
+</gaphor>
